@@ -1,0 +1,573 @@
+/* latin */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v6/APH4jr0uSos5wiut5cpjrugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Questrial'), local('Questrial-Regular'), url(http://fonts.gstatic.com/s/questrial/v6/MYWJ4lYm5dbZ1UBuYox79FtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body{
+	min-height: 1000px;
+	/*padding-left: 5%;
+	padding-right:5%;*/
+	margin-top: 0;
+	font-family: 'Questrial';
+}
+nav{
+	height: 65px;
+	background-color: #26466D;
+	border-radius: 4px;
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-top-left-radius:0px;		
+	border-top-right-radius:0px;
+	border-top-left-radius:0px;
+	border-raduis-top-left:0px;
+	border-raduis-top-right:0px;
+}
+nav a {
+	color: #fafafa;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 5px;
+}
+nav a:hover {
+	color: #C6E2FF;
+}
+.readerCommentary{
+	clear:both;
+	width: 90%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	line-height: 1.5;
+}
+nav li{
+	display: inline;
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+nav ul{
+	display: inline; 
+}
+em p {
+	text-align: right;
+	margin-right: 20px;
+}
+em p a{
+	color: #26466D;
+}
+em p a:hover{
+	color: #4372AA;
+}
+nav h1{
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	margin-top:4px;
+}
+.catTagsContent{
+	width: 100%;
+}
+.catTags1{
+	float:left;
+}
+.catTags2{
+	float: left;
+	margin-left: 8px;
+    margin-top: -4px;
+}
+.tags{
+	margin:0;
+	padding:0;
+	position:absolute;
+	list-style:none;
+	display: block;
+	}
+.tags li{
+	margin-bottom: 3px;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	font-size:14px;
+}
+.tags li{
+	margin-left:35px;
+	padding:0 10px 0 12px;
+	background:#26466D;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+}
+.tags li:before{
+	content:"";
+	float: left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #26466D transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 12px 0;		
+}
+.tags li:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+}
+.tags2{
+	margin:0;
+	padding:0;
+	position:absolute;
+	list-style:none;
+	display: inline;
+	}
+.tags2 li{
+	float: left;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	font-size:14px;
+}
+.tags2 li{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#26466D;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+}
+.tags2 li:before{
+	content:"";
+	float: left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #26466D transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 12px 0;		
+}
+.tags2 li:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+}
+.form {
+	display: inline;
+}
+.form input {
+	margin-left: 10px;
+}
+.inline {
+	display: inline;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #eef7fa;
+}
+.categoryTags{
+	width: 150px;
+	background-color: #26466D;
+	color: #fafafa; 
+	min-height: 27px;
+	margin-left: 10px;
+
+}
+.titleBTN, .categoryUL{
+	float: left;
+	display: inline-block;
+	width:44%;
+}
+
+.categoryUL{
+	margin-top: 21px;
+  	margin-left: 10%;
+  	
+}
+.lineItem{
+	width: 90%;
+	/*border: 1px solid black;
+	border-radius: 4px;*/
+	min-height: 100px;
+}
+.table {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+
+}
+.currentTitle {
+	background-color: #26466D !important;
+	border-radius: 5px;
+	color:#fafafa;
+}
+.currentTitle:hover{
+	background-color: #eef7fa;
+}
+#sortCat{
+	margin-left:25%;
+}
+.content {
+	float: right;
+	width:69%;
+}
+.content h1 {
+	margin-top: 15px;
+}
+.content h1, .content h2, .content h3, .content h4 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.content p {
+	margin-bottom: 20px;
+}
+.content h1 {
+	text-decoration: underline;
+}
+
+.content h3 {
+	display: inline-block;
+}
+
+table + h1 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.commentarySpace {
+	margin-top: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  /*font-weight: normal;*/
+  line-height: 1.42857143;
+  text-align: center;
+ /* white-space: nowrap;*/
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+ /* -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;*/
+ /* background-image: none;*/
+  /*border: 1px solid transparent;*/
+  border-radius: 4px;
+  background-color: #ffffff
+}
+.btn:hover {
+  background-color: #fafafa;
+}
+
+table td, table th {
+	padding: 8px;
+	border-bottom: 1px solid #ddd !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+/*.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}*/
+/*.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}*/
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.table .table {
+  background-color: #fff;
+}
+.table th{
+	text-align: left;
+}
+.leftSideBar{
+	float:left;
+	width:28%;
+	min-height:1000px;
+	border-right: 1px solid #26466D;
+	background-color: #eef7fa;
+	padding-left:2%;
+}
+.categoryReader h3 {
+	display: inline-block;
+}
+.leftSideBar h2{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.sidebar input{
+	
+	text-align: center;
+	margin-top: 15px;
+	min-width: 150px;
+}
+.maindiv > h1 {
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+.maindiv h1 {
+	margin-left:30px;
+}
+.commentary{
+	display: block;
+	width: 70%;
+	min-height: 300px;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 16px;
+}
+.commentarylabel {
+	margin-left: 15%;
+	margin-top: 20px;
+}
+.boxcheck {
+	vertical-align: bottom;
+	margin-right: 2px !important;
+	margin-bottom: 4px;
+}
+.addform input, .addform select {
+	margin-left: 20px;
+	margin-right: 20px;
+	min-height: 18px;
+	font-size: 18px;
+}
+
+.center{
+	text-align: center;
+}
+select{
+	font-size: 18px;
+}
+.indexcontent{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.addform span, .addform p{
+	font-size: 18px;
+}
+
+.addsubmit{
+	float: right;
+	margin-right:15% !important;
+	margin-top: 20px;
+}
+
+.maindiv {
+	background-color: #f6fbfc;
+	margin-top: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 1000px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.sortform{
+	background: none;
+    border: none;
+    color: #26466D;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+}
+.sortform:hover{
+	color:#4372AA
+}
+h1 {
+	padding-top:10px;
+	margin-top: 0;
+}
+
+/*styling for accordian*/
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+.accordian + p {
+	text-align: center;
+}
+
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+
+.accordian {
+	width: 990px; height: 320px;
+	overflow: hidden;
+	border-radius: 10px;
+	/*Time for some styling*/
+	margin: 0 auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 2000px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 200px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 90px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+	width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+/*quote styling*/
+blockquote {
+  border-left: 10px solid #26466D;
+  color: #26466D;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  line-height: 30px;
+}
+blockquote:before {
+  color: #26466D;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #26466D;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.20em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.return{
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left:20px;
+	padding-bottom: 30px;
+}
+.return a{
+	color:#26466D;
+}
+.return a:hover{
+	color: #4372AA;
+}
